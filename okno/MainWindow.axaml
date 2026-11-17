@@ -6,6 +6,7 @@
         x:Class="okno.MainWindow"
         Title="Warsztat Narzędziowy"
         Width="500" Height="550"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Background="#1E1E2E">
     <TextBlock Text="Warsztat" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 </Window>
