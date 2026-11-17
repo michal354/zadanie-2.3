@@ -22,6 +22,7 @@ public partial class MainWindow : Window
             _orders.Add($"#{_orders.Count + 1}: {text}");
             RepairNameInput.Clear();
             CounterLabel.Text = $"Liczba zleceń w toku: {_orders.Count}";
+            WorkloadBar.Value = System.Math.Min(10, _orders.Count);
         }
     }
 
@@ -31,6 +32,7 @@ public partial class MainWindow : Window
         {
             _orders.Remove(selected);
             CounterLabel.Text = $"Liczba zleceń w toku: {_orders.Count}";
+            WorkloadBar.Value = System.Math.Min(10, _orders.Count);
         }
     }
 }
