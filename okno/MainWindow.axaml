@@ -19,5 +19,6 @@
         <Button x:Name="RemoveOrderButton" Content="Zakończ wybrane zlecenie" Click="OnRemoveOrderClicked" Background="#F38BA8" Foreground="#11111B" CornerRadius="8" Padding="12,6" HorizontalAlignment="Center" FontWeight="SemiBold"/>
         <TextBlock x:Name="CounterLabel" Text="Liczba zleceń w toku: 0" FontSize="13" Foreground="#94E2D5" HorizontalAlignment="Center"/>
         <ProgressBar x:Name="WorkloadBar" Minimum="0" Maximum="10" Value="0" Height="8" Width="360" Foreground="#A6E3A1" Background="#313244"/>
+        <TextBlock Text="System Warsztatowy v1.0 • Gotowy do pracy" FontSize="11" Foreground="#6C7086" HorizontalAlignment="Center" Margin="0,5,0,0"/>
     </StackPanel>
 </Window>
