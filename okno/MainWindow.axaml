@@ -14,6 +14,7 @@
         <TextBox x:Name="RepairNameInput" Watermark="Wpisz nazwę naprawy lub sprzętu..." Width="360" HorizontalAlignment="Center"/>
         <Button x:Name="AddOrderButton" Content="Dodaj zlecenie" Click="OnAddOrderClicked" Background="#89B4FA" Foreground="#11111B" CornerRadius="8" Padding="15,8" HorizontalAlignment="Center" FontWeight="SemiBold"/>
         <ListBox x:Name="OrdersList" Width="360" Height="130" Background="#313244" CornerRadius="8"/>
+        <Button x:Name="RemoveOrderButton" Content="Zakończ wybrane zlecenie" Click="OnRemoveOrderClicked" Background="#F38BA8" Foreground="#11111B" CornerRadius="8" Padding="12,6" HorizontalAlignment="Center" FontWeight="SemiBold"/>
         <TextBlock x:Name="CounterLabel" Text="Liczba zleceń w toku: 0" FontSize="13" Foreground="#94E2D5" HorizontalAlignment="Center"/>
     </StackPanel>
 </Window>

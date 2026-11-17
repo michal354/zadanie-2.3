@@ -24,4 +24,13 @@ public partial class MainWindow : Window
             CounterLabel.Text = $"Liczba zleceń w toku: {_orders.Count}";
         }
     }
+
+    private void OnRemoveOrderClicked(object? sender, RoutedEventArgs e)
+    {
+        if (OrdersList.SelectedItem is string selected)
+        {
+            _orders.Remove(selected);
+            CounterLabel.Text = $"Liczba zleceń w toku: {_orders.Count}";
+        }
+    }
 }
