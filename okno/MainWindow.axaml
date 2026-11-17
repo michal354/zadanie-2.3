@@ -13,5 +13,6 @@
         <TextBlock Text="Stanowisko diagnostyczne aktywne" FontSize="13" Foreground="#A6ADC8" HorizontalAlignment="Center"/>
         <TextBox x:Name="RepairNameInput" Watermark="Wpisz nazwę naprawy lub sprzętu..." Width="360" HorizontalAlignment="Center"/>
         <Button x:Name="AddOrderButton" Content="Dodaj zlecenie" Background="#89B4FA" Foreground="#11111B" CornerRadius="8" Padding="15,8" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+        <ListBox x:Name="OrdersList" Width="360" Height="130" Background="#313244" CornerRadius="8"/>
     </StackPanel>
 </Window>
