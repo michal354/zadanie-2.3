@@ -11,5 +11,6 @@
     <StackPanel Margin="20" Spacing="15" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBlock Text="Warsztat Narzędziowy" FontSize="26" FontWeight="Bold" Foreground="#CDD6F4" HorizontalAlignment="Center"/>
         <TextBlock Text="Stanowisko diagnostyczne aktywne" FontSize="13" Foreground="#A6ADC8" HorizontalAlignment="Center"/>
+        <TextBox x:Name="RepairNameInput" Watermark="Wpisz nazwę naprawy lub sprzętu..." Width="360" HorizontalAlignment="Center"/>
     </StackPanel>
 </Window>
