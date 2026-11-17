@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 
 namespace okno;
@@ -12,6 +13,14 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         OrdersList.ItemsSource = _orders;
+    }
+
+    private void OnRepairNameKeyDown(object? sender, KeyEventArgs e)
+    {
+        if (e.Key == Key.Enter)
+        {
+            OnAddOrderClicked(sender, e);
+        }
     }
 
     private void OnAddOrderClicked(object? sender, RoutedEventArgs e)
